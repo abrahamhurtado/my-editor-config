@@ -8,12 +8,11 @@
   "ecmaFeatures": {
     "jsx": true,
     "superInFunctions": false,
-    "classes": false,
+    "classes": true,
     "modules": [2]
   },
   "plugins": [
-    "react",
-    "no-class"
+    "react"
   ],
   "rules": {
     "comma-dangle": [2, "never"],
@@ -174,7 +173,6 @@
     "react/require-extension": [1, {"extensions": [".js", ".jsx"]}],
     "react/self-closing-comp": 2,
     "react/sort-comp": [1, {"order": ["lifecycle", "everything-else","render"]}],
-    "react/wrap-multilines": [1, {"declaration": true, "assingment": true, "return": true}],
-    "no-class/no-class": 2
+    "react/wrap-multilines": [1, {"declaration": true, "assingment": true, "return": true}]
   }
 }
